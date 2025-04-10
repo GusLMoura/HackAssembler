@@ -23,7 +23,6 @@ private:
 	//Command Binary Code
 	std::string commandInBinary;
 
-
 	//ACommand member
 	std::string address;
 

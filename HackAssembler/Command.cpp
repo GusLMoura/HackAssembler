@@ -239,6 +239,10 @@ std::string Command::StringAssembly2StringBinaryCode(const std::string& input)
 		{
 			computationInBinary = "1110111";
 		}
+		else if (computation == "M-1")
+		{
+			computationInBinary = "1110010";
+		}
 		else if (computation == "D+M")
 		{
 			computationInBinary = "1000010";
